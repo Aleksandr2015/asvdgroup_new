@@ -148,7 +148,16 @@ function wildli_custom_form_class_attr( $class ) {
 	return $class;
 }
 
-	
+
+// Смена стандартного логотипа WP при входе
+function custom_login_logo() {
+    echo '
+    <style type="text/css">
+        h1 a { background-image:url('.get_bloginfo('template_directory').'/img/logo_icon.png) !important; }
+    </style>';
+}
+add_action('login_head', 'custom_login_logo');
+
 #все новые функции писать до этого комментария
 	
 ?>

@@ -1,15 +1,124 @@
 @charset "UTF-8";
 /*
-Theme Name: Умный дом
-Theme URI: http://www.pikdom.ru/
-Description: Тема для сайта pikdom.ru
+Theme Name: ASVD Group
+Theme URI: http://asvdgroup.ru
+Description: Тема для asvdgroup.ru
 Version: 1.0
-Author: Honcharov Aleksandr
+Author: Александр Гончаров
 Author URI: http://wd.honcharovs.com
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: pikdom
 */
 
-@import url("css/bootstrap.css");
-@import url("css/bootstrap-theme.css");
+/*@import url("css/bootstrap.css");*/
+/*@import url("css/bootstrap-theme.css");*/
+@import "css/style.css";
+
+/* Scrollbars */
+/*
+::-webkit-scrollbar {
+  width: 10px;
+}
+ 
+::-webkit-scrollbar-thumb:vertical {
+  margin: 5px;
+  background-color: #999;
+  -webkit-border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  height: 5px;
+  display: block;
+}
+*/
+
+/*
+* navbar
+*/
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-nav > li > a {
+  padding: 25px 15px 24px;
+}
+
+/*
+* home-page
+*/
+
+.home-page a.btn {
+  width: 100%;
+}
+
+.home-page .caption h3 {
+  margin-top: 5px;
+}
+
+/*
+* address-program
+*/
+
+.address-program {	
+	
+}
+
+/*
+* products
+*/
+
+.products .thumbnail {
+  margin-bottom: 0;
+}
+
+/*
+* rent
+*/
+
+.rent .panel {
+  margin-top: 20px;
+}
+
+.rent .lead {
+  margin-bottom: 0;
+}
+
+/*
+* footer
+*/
+
+.footer {
+  margin-bottom: 20px;
+}
+
+.footer p, .footer a {
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer li {
+  list-style: none;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.footer .dev {
+  position: relative;
+  height: 60px;
+}
+
+.footer .dev .developer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
+
+
